@@ -21,7 +21,6 @@ function renderCartItems() {
     if (!cartItemsContainer) return;
 
     cartItemsContainer.innerHTML = '';
-
     cart.forEach(item => {
         const cartItem = document.createElement('div');
         cartItem.classList.add('cart-item');
@@ -104,4 +103,4 @@ document.addEventListener('click', (e) => {
         alert(`${name} has been added to your cart!`);
     }
 });
-
+// njdn
