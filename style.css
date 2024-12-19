@@ -81,7 +81,7 @@ nav ul li a.active {
 
 /* Hero section styles */
 .hero {
-    background-image: url('https://via.placeholder.com/1920x600');
+    background-image: url('img/mall.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
