@@ -15,7 +15,7 @@ function updateCartCount() {
     const cartCount = document.getElementById('cart-count');
     cartCount.textContent = cart.reduce((total, item) => total + item.quantity, 0);
 }
-
+//this is comment
 function renderCartItems() {
     const cartItemsContainer = document.getElementById('cart-items');
     if (!cartItemsContainer) return;
